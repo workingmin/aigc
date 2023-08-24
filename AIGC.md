@@ -1,5 +1,8 @@
 # AIGC
 
+> Artificial Intelligence Generated Content
+> 人工智能生成内容
+
 <style>
   h1 {
     counter-reset: h2
@@ -24,9 +27,6 @@
   }
 </style>
 
-> Artificial Intelligence Generated Content
-> 人工智能生成内容
-
 [TOC]
 
 <br>
@@ -34,6 +34,13 @@
 ## 发展历史沿革
 
 + ![png](resources/AIGC发展历程.png "AIGC 发展历程")
++ 内容创作模式的四个发展阶段
+  + $$\begin{gather*}
+      \text{PGC} \to \text{UGC} \to \text{AIUGC} \to \text{AIGC}
+      \end{gather*}$$
+    + PGC &emsp; Professional Generated Content, 专业制作
+    + UGC &emsp; User Generated Content, 用户创作
+    + AIUGC &emsp; AI enabled User Generated Content, AI辅助用户创作
 
 <br>
 
@@ -112,6 +119,8 @@
 
 <br>
 
++ 
+
 + 国外主要的AIGC预训练模型
   + | | 预训练模型 | 应用 | 领域 |
     | --- | --- | --- | ---|
@@ -125,8 +134,77 @@
 
 <br>
 
-+ 国内各大厂ChatGPT技术布局及应用场景
-  + ![webp](resources/国内各大厂ChatGPT技术布局及应用场景.webp "国内各大厂ChatGPT技术布局及应用场景") 
++ 国外应用现状概览
+  + ![png](resources/AIGC应用现状概览.png "国外应用现状概览")
+    + Text
+      + | AREA | APPLICATION |
+        | --- | --- |
+        | MARKETING | [copy.ai](https://www.copy.ai/)<br>[regie.ai](https://www.regie.ai/)<br>[Jasper](https://www.jasper.ai/)<br>[copysmith](https://copysmith.ai/)<br>[anyword](https://anyword.com/)<br>[Writesonic](https://writesonic.com/)<br>[CONTENDA](https://contenda.co/)<br>[Hypotenuse AI](https://www.hypotenuse.ai/) |
+        | SALES | [LAVENDER](https://www.lavender.ai/)<br>[Smartwriter.ai](https://www.smartwriter.ai/) |
+        | KNOWLEDGE | [glean](https://glean.co)<br>[mem](https://get.mem.ai/) |
+        | GENERAL WRITING | [wordtune](https://www.wordtune.com/)<br>[COMPOSE AI](https://www.compose.ai/)<br>[OTHERSIDEAI $\to$ HyperWrite](https://www.hyperwriteai.com/)<br>[Rytr](https://rytr.me/)<br>  [WRITER](https://writer.com/)<br>[LEX](https://lex.page/) |
+        | OTHER | [~~Character.AI~~](https://beta.character.ai/)<br>[AI DUNGEON](https://aidungeon.io/) |
+      + MODELS
+        + OPENAI GPT-3
+        + DEEPMIND GOPHER
+        + FACEBOOK OPT
+        + HUGGING FACE BLOOM
+        + COHERE
+        + ANTHROPIC
+        + AI2
+        + ALIBABA
+        + YANDEX 
+    + Code
+      + | AREA | APPLICATION |
+        | --- | --- |
+        | CODE GENERATION | [GitHub Copilot](https://github.com/features/copilot)<br>[replit: GhostWriter](https://replit.com/site/ghostwriter)<br>[tabnine](https://www.tabnine.com/) |
+        | DOCUMENTATION | [Mintlify](https://mintlify.com/)<br>[Stenography](https://www.stenography.dev/) |
+        | WEB APP BUILDERS | [Debuild](https://debuild.app/)<br>[Enzyme](https://enzyme.so/) |
+        | TEXT TO SQL | [cogram](https://www.cogram.com/) |
+      + MODELS
+        + OPENAI GPT-3 
+        + TABNINE
+        + STABILITY.AI
+    + Image
+      + | AREA | APPLICATION |
+        | --- | --- |
+        | IMAGE GENERATION | [Midjourney](https://www.midjourney.com/)<br>[stability.ai](https://stability.ai/)<br>[craiyon](https://www.craiyon.com/)<br>[WOMBO.AI](https://www.wombo.art/)[ROSEBUD.AI](https://www.rosebud.ai/)<br>[Lexica](https://lexica.art/)<br>[playground](https://playgroundai.com/) |
+        | CONSUMER / SOCIAL | [Midjourney](https://www.midjourney.com/) |
+        | MEDIA / ADVERTISING | [stability.ai](https://stability.ai/) |
+        | DESIGN | [Diagram $\to$ draw.io](https://www.drawio.com/)<br>[alpaca](https://www.alpacaml.com/) |
+      + MODELS
+        + OPENAI DALL-E 2
+        + STABLE DIFFUSION
+        + CRAIYON
+    + Video
+      + | AREA | APPLICATION |
+        | --- | --- |
+        | VIDEO EDITING / GENERATION | [runway](https://runwayml.com/) |
+        | PERSONALIZED VIDEOS | [tavus](https://www.tavus.io/)<br> [synthesia](https://www.synthesia.io/)<br>[Hour One](https://hourone.ai/)<br>  [Rephrase.ai](https://www.rephrase.ai/) |
+      + MODELS
+        + MICROSOFT X-CLIP
+        + META MAKE-A-VIDEO
+    + 3D
+      + MODELS 
+        + DREAMFUSION
+        + NVIDIA GET3D
+        + MDM
+    + Speech
+      + | AREA | APPLICATION |
+        | --- | --- |
+        | VOICE SYNTHESIS | [RESEMBLE.AI](https://www.resemble.ai/) [WELLSAID](https://wellsaidlabs.com/)<br>[podcast.ai](https://podcast.ai/) |
+      + MODELS
+        + OPENAI
+    + Other
+      + | AREA | APPLICATION |
+        | --- | --- |
+        | GAMING | [AI DUNGEON](https://aidungeon.io/) |
+        | RPA | [Adept](https://www.adept.ai/) |
+
+<br>
+
++ 国内ChatGPT技术布局及应用场景
+  + ![webp](resources/国内ChatGPT技术布局及应用场景.webp "国内ChatGPT技术布局及应用场景") 
 
 <br>
 
@@ -235,30 +313,11 @@
 ### 应用工具
 
 + [AIGC导航](https://www.aigc.cn/)
-+ AI办公工具
-  + | 应用 | 功能 | 网址链接 |
-    | --- | --- | --- |
-    | 爱设计PPT | 一款AI驱动的PPT在线生成器。 | <https://www.isheji.com/> |
-    | GPTBots.AI | 极光（Aurora Mobile，纳斯达克股票代码：JG）旗下的AI产品，让企业及个人开发者能快速创建自己的AI Bots | <https://www.gptbots.ai/> |
-    | WPS AI-体验官申请 | 智能办公助手 | <https://ai.wps.cn/> |
-    | 协码啦 AI | AI图片+文字+文档 一站式AI集成平台 | <https://ai.xiemala.com/> |
-    | 通义听悟 | 全文概要、章节速览、发言总结等高阶AI功能，并获赠使用权益。 | <https://tingwu.aliyun.com/> |
-    | 集智魔方AI BOX | 创建属于自己的AI应用平台 | <https://www.chatbox.cool/#/home> |
-    | 壹伴助手 | 长文写作、短文生成、排版、修图、找素材和回消息 | <https://yiban.io/> |
-    | ChatPPT | 参照你的语义对话生成完整的PPT文档，指令支持个性化生成与编辑诉求 | <https://chat-ppt.com/> |
-    | SQLkiller | AI数据分析助手-SQL生成、修正，Excel公式生成 | <https://www.sqlkiller.com/> |
-    | 微软爱写作 | 微软开发的一款在线写作平台 | <https://aimwriting.mtutor.engkoo.com/> |
-    | ChartAI | 解决数据可视化中存在的例如数据过多、数据难以理解、图表编制时间长等问题 | <https://chartai.io/zh> |
-    | ChatExcel | ChatExcel帮你处理Excel表格，上传你的文件，输入你的需求，AI自动就帮主你处理。 | <https://chatexcel.com/> |
-    | excelformulabot | 在人工智能的帮助下，几秒钟内免费将文本指令转换为Excel公式。在几秒钟内精通Excel。 | <https://formulabot.com/> |
-    | Chatbase | 只要上传一个pdf文件，就可以得到一个基于GPT的聊天机器人的链接，它可以回答上面的任何问题。 | <https://www.chatbase.co/> |
-    | TreeMind树图 | AI生成导图，提升学习及工作效率。 | <https://shutu.cn/> |
-    | 多墨智能 | AI一键生成工作文档，流程图，思维导图 | <https://duomosmart.com/> |
 
 <br>
 
 ## 参考文献
 
-> [人工智能生成内容（AIGC）白皮书（2022年） 中国信息通信研究院,京东探索研究院 2022年9月](http://www.caict.ac.cn/sytj/202209/t20220913_408835.htm)
+> [人工智能生成内容（AIGC）白皮书（2022年） 中国信息通信研究院,京东探索研究院 2022年9月](http://www.caict.ac.cn/kxyj/qwfb/bps/202209/P020220902534520798735.pdf)
 > [腾讯研究院AIGC发展趋势报告2023](https://research.tencent.com/report?id=AJJ)
 > [国内各大厂ChatGPT技术布局及应用场景](https://zhuanlan.zhihu.com/p/621901693)
