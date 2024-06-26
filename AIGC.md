@@ -119,8 +119,6 @@
 
 <br>
 
-+ 
-
 + 国外主要的AIGC预训练模型
   + | | 预训练模型 | 应用 | 领域 |
     | --- | --- | --- | ---|
@@ -200,11 +198,6 @@
         | --- | --- |
         | GAMING | [AI DUNGEON](https://aidungeon.io/) |
         | RPA | [Adept](https://www.adept.ai/) |
-
-<br>
-
-+ 国内ChatGPT技术布局及应用场景
-  + ![webp](resources/国内ChatGPT技术布局及应用场景.webp "国内ChatGPT技术布局及应用场景") 
 
 <br>
 
@@ -320,4 +313,3 @@
 
 > [人工智能生成内容（AIGC）白皮书（2022年） 中国信息通信研究院,京东探索研究院 2022年9月](http://www.caict.ac.cn/kxyj/qwfb/bps/202209/P020220902534520798735.pdf)
 > [腾讯研究院AIGC发展趋势报告2023](https://research.tencent.com/report?id=AJJ)
-> [国内各大厂ChatGPT技术布局及应用场景](https://zhuanlan.zhihu.com/p/621901693)
